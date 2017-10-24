@@ -5,10 +5,12 @@ using namespace std;
 int main(){
 	
 	int LR=42;
-	cout<<"Luas Rumah			:"<<LR<<"m2"<<endl;
+	cout<<"Luas Rumah		:"<<LR<<"m2"<<endl;
 	double LP=1.87596;
-	cout<<"Luas 1 box parket	:"<<LP<<"m2"<<endl:
+	cout<<"Luas 1 box parket	:"<<LP<<"m2"<<endl;
 	double JP=LR/LP;
 	cout<<"jumlah box parket	:"<<JP<<endl;
+	double BPR=JP*500;
+	cout<<"biaya parket		:"<<BPR<<endl;
 	
 }
